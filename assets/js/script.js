@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
         const clickedCard = event.target;
 
         //ignore if card is clicked or has matched
-        if (clickedCard.classList.contains('flipped') || clickedCard.Card.classList.contains('matched')) {
+        if (clickedCard.classList.contains('flipped') || clickedCard.classList.contains('matched')) {
             return;
         }
 
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                     //reset flippedCards array
                     flippedCards = [];
-                }, 1000);
+                }, 500);
             }
         }
     }
